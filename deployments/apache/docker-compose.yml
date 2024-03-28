@@ -4,5 +4,6 @@ services:
     image: maltego-trx:apache
     container_name: maltego-trx
     build: .
+    Dockerfile: Dockerfile
     ports:
       - "4512:8080"
